@@ -6,7 +6,6 @@ import Meme from "./Components/Meme"
     return (
         <div>
             <Header />
-            <Meme />
         </div>
     )
 }
