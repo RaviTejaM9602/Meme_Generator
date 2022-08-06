@@ -8,7 +8,7 @@ export default function Header() {
           src={logo} alt="logo"
           className="header--image"
       />
-      <h2 className="header--title">Header component</h2>
+      <h2 className="header--title">Meme Generator</h2>
       <h4 className="header--project">React Course - Project 3</h4>
        </header>
      )
