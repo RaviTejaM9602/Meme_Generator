@@ -1,15 +1,15 @@
 import React from "react"
-import Logo from "../Images/Troll-face.png"
+import logo from "../Images/Troll-face.png"
 
 export default function Header() {
-    return (
-        <header className="header">
-            <img src={Logo}
-                className="header--image"
-                alt="Logo"
-            />
-            <h2 className="header--title">Meme Generator</h2>
-            <h4 className="header--project">React Course - Project 3</h4>
-        </header>
-    )
+     return (
+      <header className="header">
+      <img 
+          src={logo} alt="logo"
+          className="header--image"
+      />
+      <h2 className="header--title">Header component</h2>
+      <h4 className="header--project">React Course - Project 3</h4>
+       </header>
+     )
 }
